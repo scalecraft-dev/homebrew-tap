@@ -4,28 +4,28 @@
 class Darkplum < Formula
   desc "Operate a private AI platform in your own AWS account"
   homepage "https://github.com/scalecraft-dev/darkplum"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.1.0/darkplum_0.1.0_darwin_arm64.tar.gz"
-      sha256 "66bb11534636e970819a7eca143467b340f666e51153664c6c7705ed866deca6"
+      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.2.0/darkplum_0.2.0_darwin_arm64.tar.gz"
+      sha256 "ec7f0f48369954c6b1fd11836009cdbd2e46cbbfb9a2be937ac56196092afbe5"
     end
     on_intel do
-      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.1.0/darkplum_0.1.0_darwin_amd64.tar.gz"
-      sha256 "0c31b1b6a7d6fe97335f4d337797d9a7c97bea84ede50ce24570cc53b86ae425"
+      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.2.0/darkplum_0.2.0_darwin_amd64.tar.gz"
+      sha256 "50b754b2239b3de7c39300e73642e37bfb61e05ad3a9e4cda35e98900419f725"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.1.0/darkplum_0.1.0_linux_arm64.tar.gz"
-      sha256 "c22e06ec46f6dd09b82d782626f5f48f007dfcd5dc578789ce54f5bca6656e19"
+      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.2.0/darkplum_0.2.0_linux_arm64.tar.gz"
+      sha256 "a44128db36fac3ddd43f15e2d41ef0910fa658650f5e0eee161eba00c311661d"
     end
     on_intel do
-      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.1.0/darkplum_0.1.0_linux_amd64.tar.gz"
-      sha256 "67a5dc47a3e22366da9bf6355676794b7a23fd5b0db372d27d6d786ba9d76a4c"
+      url "https://github.com/scalecraft-dev/darkplum/releases/download/v0.2.0/darkplum_0.2.0_linux_amd64.tar.gz"
+      sha256 "b4f81299969626ed2ef22a6bd0af003a6f7f8b7cc51ecb73996f81ba327cf3bd"
     end
   end
 
